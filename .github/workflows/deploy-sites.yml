@@ -45,7 +45,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: /tmp/quartz/public
-          publish_branch: quartz-deploy
+          publish_branch: quartz
           force_orphan: true
 
   mkdocs:
@@ -88,5 +88,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: /tmp/mkdocs/site
-          publish_branch: mkdocs-deploy
+          publish_branch: mkdocs
           force_orphan: true
