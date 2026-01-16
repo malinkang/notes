@@ -1,4 +1,4 @@
-name: Build and deploy Quartz & MkDocs
+name: "Build and deploy Quartz and MkDocs"
 
 on:
   push:
@@ -74,8 +74,6 @@ jobs:
 
           if [ ! -f /tmp/mkdocs/docs/index.md ]; then
             cat > /tmp/mkdocs/docs/index.md << 'EOF'
-# 笔记索引
-
 这是自动生成的首页。你的所有 Markdown 笔记已作为 MkDocs 文档的一部分部署。
 EOF
           fi
