@@ -1,4 +1,4 @@
-name: "Build and deploy Quartz and MkDocs"
+name: build-and-deploy-quartz-and-mkdocs
 
 on:
   push:
@@ -73,9 +73,7 @@ jobs:
             --exclude '.obsidian'
 
           if [ ! -f /tmp/mkdocs/docs/index.md ]; then
-            cat > /tmp/mkdocs/docs/index.md << 'EOF'
-这是自动生成的首页。你的所有 Markdown 笔记已作为 MkDocs 文档的一部分部署。
-EOF
+            printf '%s\n' '# Notes Index' '' 'This is an auto-generated index page.' > /tmp/mkdocs/docs/index.md
           fi
 
           cat > /tmp/mkdocs/mkdocs.yml << 'EOF'
@@ -84,7 +82,7 @@ docs_dir: docs
 theme:
   name: material
 nav:
-  - 首页: index.md
+  - Home: index.md
 EOF
 
       - name: Install MkDocs
