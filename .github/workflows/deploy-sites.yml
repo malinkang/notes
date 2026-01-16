@@ -1,0 +1,107 @@
+name: Build and deploy Quartz & MkDocs
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  quartz:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Clone Quartz v4 template
+        run: |
+          git clone --depth 1 --branch v4 https://github.com/jackyzha0/quartz.git /tmp/quartz
+
+      - name: Copy notes into Quartz content
+        run: |
+          rsync -av --delete \
+            "$GITHUB_WORKSPACE"/ \
+            /tmp/quartz/content/ \
+            --exclude '.git' \
+            --exclude '.github' \
+            --exclude '.obsidian'
+
+      - name: Install Quartz dependencies
+        working-directory: /tmp/quartz
+        run: npm ci
+
+      - name: Build Quartz
+        working-directory: /tmp/quartz
+        run: npx quartz build
+
+      - name: Deploy Quartz to quartz-deploy branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: /tmp/quartz/public
+          publish_branch: quartz-deploy
+          force_orphan: true
+
+  mkdocs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Prepare MkDocs project
+        run: |
+          mkdir -p /tmp/mkdocs/docs
+          rsync -av --delete \
+            "$GITHUB_WORKSPACE"/ \
+            /tmp/mkdocs/docs/ \
+            --exclude '.git' \
+            --exclude '.github' \
+            --exclude '.obsidian'
+
+          if [ ! -f /tmp/mkdocs/docs/index.md ]; then
+            cat > /tmp/mkdocs/docs/index.md << 'EOF'
+# 笔记索引
+
+这是自动生成的首页。你的所有 Markdown 笔记已作为 MkDocs 文档的一部分部署。
+EOF
+          fi
+
+          cat > /tmp/mkdocs/mkdocs.yml << 'EOF'
+site_name: Notes (MkDocs)
+docs_dir: docs
+theme:
+  name: material
+nav:
+  - 首页: index.md
+EOF
+
+      - name: Install MkDocs
+        working-directory: /tmp/mkdocs
+        run: |
+          pip install mkdocs mkdocs-material
+
+      - name: Build MkDocs
+        working-directory: /tmp/mkdocs
+        run: mkdocs build --clean
+
+      - name: Deploy MkDocs to mkdocs-deploy branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: /tmp/mkdocs/site
+          publish_branch: mkdocs-deploy
+          force_orphan: true
