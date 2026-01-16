@@ -2,6 +2,19 @@
 title: AI 编程工具整理
 ---
 
+## Antigravity
+
+Google 推出的 AI IDE，基于 Gemini 3。
+
+- [官网](https://developers.google.com/idx/antigravity)
+
+### 安装
+
+```bash
+brew install --cask antigravity
+```
+
+---
 
 ## OpenCode
 
