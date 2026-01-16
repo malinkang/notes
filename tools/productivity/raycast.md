@@ -14,4 +14,3 @@ macOS 上的效率启动器，替代 Spotlight。
 brew install --cask raycast
 ```
 
-或从官网下载 `.dmg` 安装。
