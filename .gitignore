@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Obsidian local state (not needed for sync)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Obsidian plugins (可通过 Obsidian 自己重新安装)
+.obsidian/plugins/
+.obsidian/cache/
+.obsidian/snippets/
+.obsidian/backups/
+
+# Trash / temp
+.trash/
