@@ -36,6 +36,13 @@ jobs:
         working-directory: /tmp/quartz
         run: npm ci
 
+      - name: Configure Quartz
+        working-directory: /tmp/quartz
+        run: |
+          sed -i "s/pageTitle: .*/pageTitle: \"Malinkang's Notes\",/" quartz.config.ts
+          sed -i 's/footer: Component\.Footer.*/footer: Component.Footer({ links: { GitHub: "https:\/\/github.com\/malinkang", Twitter: "https:\/\/twitter.com\/malinkang" } }),/' quartz/components/Footer.tsx 2>/dev/null || true
+          sed -i "s/Created with/© Malinkang |/" quartz/components/Footer.tsx 2>/dev/null || true
+
       - name: Build Quartz
         working-directory: /tmp/quartz
         run: npx quartz build
@@ -71,7 +78,7 @@ jobs:
           if [ ! -f /tmp/mkdocs/docs/index.md ]; then
             echo "# Notes Index" > /tmp/mkdocs/docs/index.md
           fi
-          echo "site_name: Notes" > /tmp/mkdocs/mkdocs.yml
+          echo "site_name: Malinkang's Notes" > /tmp/mkdocs/mkdocs.yml
           echo "docs_dir: docs" >> /tmp/mkdocs/mkdocs.yml
           echo "theme:" >> /tmp/mkdocs/mkdocs.yml
           echo "  name: material" >> /tmp/mkdocs/mkdocs.yml
