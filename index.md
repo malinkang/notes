@@ -2,8 +2,6 @@
 title: Malinkang's Notes
 ---
 
-# Malinkang's Notes
-
 我是 Malinkang，一名 Android 开发者。这里是我的数字花园，记录学习笔记、工具使用心得和日常思考。
 
 这个站点会持续更新，你可能感兴趣的内容：
