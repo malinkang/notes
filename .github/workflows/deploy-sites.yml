@@ -1,4 +1,4 @@
-name: build-and-deploy-quartz-and-mkdocs
+name: build-and-deploy
 
 on:
   push:
@@ -16,14 +16,12 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 22
 
-      - name: Clone Quartz v4 template
-        run: |
-          git clone --depth 1 --branch v4 https://github.com/jackyzha0/quartz.git /tmp/quartz
+      - name: Clone Quartz v4
+        run: git clone --depth 1 --branch v4 https://github.com/jackyzha0/quartz.git /tmp/quartz
 
       - name: Copy notes into Quartz content
         run: |
@@ -34,7 +32,7 @@ jobs:
             --exclude '.github' \
             --exclude '.obsidian'
 
-      - name: Install Quartz dependencies
+      - name: Install Quartz deps
         working-directory: /tmp/quartz
         run: npm ci
 
@@ -42,7 +40,7 @@ jobs:
         working-directory: /tmp/quartz
         run: npx quartz build
 
-      - name: Deploy Quartz to quartz-deploy branch
+      - name: Deploy to quartz-deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -57,8 +55,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
@@ -71,30 +68,22 @@ jobs:
             --exclude '.git' \
             --exclude '.github' \
             --exclude '.obsidian'
-
           if [ ! -f /tmp/mkdocs/docs/index.md ]; then
-            printf '%s\n' '# Notes Index' '' 'This is an auto-generated index page.' > /tmp/mkdocs/docs/index.md
+            echo "# Notes Index" > /tmp/mkdocs/docs/index.md
           fi
-
-          cat > /tmp/mkdocs/mkdocs.yml << 'EOF'
-site_name: Notes (MkDocs)
-docs_dir: docs
-theme:
-  name: material
-nav:
-  - Home: index.md
-EOF
+          echo "site_name: Notes" > /tmp/mkdocs/mkdocs.yml
+          echo "docs_dir: docs" >> /tmp/mkdocs/mkdocs.yml
+          echo "theme:" >> /tmp/mkdocs/mkdocs.yml
+          echo "  name: material" >> /tmp/mkdocs/mkdocs.yml
 
       - name: Install MkDocs
-        working-directory: /tmp/mkdocs
-        run: |
-          pip install mkdocs mkdocs-material
+        run: pip install mkdocs mkdocs-material
 
       - name: Build MkDocs
         working-directory: /tmp/mkdocs
         run: mkdocs build --clean
 
-      - name: Deploy MkDocs to mkdocs-deploy branch
+      - name: Deploy to mkdocs-deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
