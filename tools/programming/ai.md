@@ -1,4 +1,6 @@
-# AI 编程工具整理
+---
+title: AI 编程工具整理
+---
 
 
 ## OpenCode
@@ -13,15 +15,13 @@ curl -fsSL https://opencode.ai/install | bash
 ```
 
 
----
-
 ## Oh My OpenCode
 
 基于 OpenCode 的“编排层”插件：多 Agent 调度、Hooks、MCP、LSP 等。
 
 - [官网](https://ohmyopencode.com/)
 - [安装说明](https://ohmyopencode.com/installation/)
-- GitHub：从官网 “View on GitHub” 进入（保持以官网为主入口）
+- [GitHub](https://github.com/code-yeongyu/oh-my-opencode)
 
 ### 安装方式
 
@@ -38,9 +38,9 @@ bunx oh-my-opencode install
 
 ### 执行 OAuth 登录
 
-   ```bash
-   opencode auth login
-   ```
+```bash
+opencode auth login
+```
 
 ---
 
@@ -61,3 +61,7 @@ brew install --cask antigravity-tools
 # 如遇安全限制可用：
 # brew install --cask --no-quarantine antigravity-tools
 ```
+
+##  quotio
+
+- [Github](https://github.com/nguyenphutrong/quotio)
