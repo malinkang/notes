@@ -1,5 +1,5 @@
 ---
-title: 📝 Malinkang's Notes
+title: 👨‍💻 Malinkang's Notes
 ---
 
 -   ### [工具](/tools)
