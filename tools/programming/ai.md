@@ -78,3 +78,11 @@ brew install --cask antigravity-tools
 ##  quotio
 
 - [Github](https://github.com/nguyenphutrong/quotio)
+
+## HAPI
+
+* [Github](https://github.com/tiann/hapi)
+
+## happy
+
+* [Github](https://github.com/slopus/happy)
