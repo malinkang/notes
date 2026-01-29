@@ -130,6 +130,9 @@ license: MIT
 
 ## 3️⃣ Skill 推荐
 
+* [obsidian-skills](https://github.com/kepano/obsidian-skills)
+* [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
+
 ### 🛒 Skills 市场
 
 | 名称 | 链接 | 说明 |
@@ -140,9 +143,9 @@ license: MIT
 
 ### 📝 Obsidian 专用
 
-| 名称 | 链接 | 说明 |
-|------|------|------|
-| **kepano/obsidian-skills** | [GitHub](https://github.com/kepano/obsidian-skills) ⭐7.7k | Obsidian CEO 开发 |
+| 名称  | 链接                                                        | 说明              |
+| --- | --------------------------------------------------------- | --------------- |
+|     | [GitHub](https://github.com/kepano/obsidian-skills) ⭐7.7k | Obsidian CEO 开发 |
 
 包含 3 个 skill：
 - `obsidian-markdown` - Wikilinks、Callouts、Properties 等
