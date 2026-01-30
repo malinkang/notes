@@ -18,14 +18,7 @@ title: Skills
 
 
 
-### 官方仓库
-
-| 仓库 | 说明 |
-|------|------|
-|  | Agent Skills 标准源码 |
-|  ⭐48.2k | Anthropic 官方示例 |
-
-### 平台文档
+## 平台文档
 
 | 平台 | 链接 |
 |------|------|
@@ -124,11 +117,11 @@ license: MIT
 ### [obsidian-skills](https://github.com/kepano/obsidian-skills)
 
 ```bash
-npx skills add obsidian@obsidian-skills --agent gemini,opencode
+npx skills add kepano/obsidian-skills --agent antigravity gemini-cli codex opencode
 ```
 
 
-* [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
+### [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
 
 ### 🛒 Skills 市场
 
