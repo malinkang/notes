@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Malinkang&#039;s Notes</title>
+      <link>https://quartz.jzhao.xyz</link>
+      <description>Last 10 notes on Malinkang&#039;s Notes</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>动词时态</title>
+    <link>https://quartz.jzhao.xyz/english/grammar/tense</link>
+    <guid>https://quartz.jzhao.xyz/english/grammar/tense</guid>
+    <description><![CDATA[  P4 动词时态 . ]]></description>
+    <pubDate>Fri, 30 Jan 2026 08:33:03 GMT</pubDate>
+  </item><item>
+    <title>动词分类</title>
+    <link>https://quartz.jzhao.xyz/english/grammar/verb-classification</link>
+    <guid>https://quartz.jzhao.xyz/english/grammar/verb-classification</guid>
+    <description><![CDATA[  P3 动词分类 . ]]></description>
+    <pubDate>Fri, 30 Jan 2026 08:33:03 GMT</pubDate>
+  </item><item>
+    <title>构词法</title>
+    <link>https://quartz.jzhao.xyz/english/grammar/word-formation</link>
+    <guid>https://quartz.jzhao.xyz/english/grammar/word-formation</guid>
+    <description><![CDATA[  P22 英语构词法 . ]]></description>
+    <pubDate>Fri, 30 Jan 2026 08:33:03 GMT</pubDate>
+  </item><item>
+    <title>英语</title>
+    <link>https://quartz.jzhao.xyz/english/</link>
+    <guid>https://quartz.jzhao.xyz/english/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Fri, 30 Jan 2026 08:33:03 GMT</pubDate>
+  </item><item>
+    <title>Malinkang&#039;s Notes</title>
+    <link>https://quartz.jzhao.xyz/</link>
+    <guid>https://quartz.jzhao.xyz/</guid>
+    <description><![CDATA[ 我是 Malinkang，一名 Android 开发者。这里是我的数字花园，记录学习笔记、工具使用心得和日常思考。 这个站点会持续更新，你可能感兴趣的内容： 编程工具 - AI 编程、开发相关工具 效率工具 - macOS 效率提升工具 笔记软件 - Obsidian 等笔记工具 联系方式 GitHub: @malinkang. ]]></description>
+    <pubDate>Fri, 30 Jan 2026 08:33:03 GMT</pubDate>
+  </item><item>
+    <title>clawdbot</title>
+    <link>https://quartz.jzhao.xyz/tools/ai/clawdbot</link>
+    <guid>https://quartz.jzhao.xyz/tools/ai/clawdbot</guid>
+    <description><![CDATA[ Clawdbot 规则：当我发链接并带上 obsidian clawdbot 时，会把内容整理到这里。 Awesome Clawdbot Skills Github . ]]></description>
+    <pubDate>Fri, 30 Jan 2026 08:33:03 GMT</pubDate>
+  </item><item>
+    <title>index</title>
+    <link>https://quartz.jzhao.xyz/tools/ai/</link>
+    <guid>https://quartz.jzhao.xyz/tools/ai/</guid>
+    <description><![CDATA[ AI clawdbot . ]]></description>
+    <pubDate>Fri, 30 Jan 2026 08:33:03 GMT</pubDate>
+  </item><item>
+    <title>工具</title>
+    <link>https://quartz.jzhao.xyz/tools/</link>
+    <guid>https://quartz.jzhao.xyz/tools/</guid>
+    <description><![CDATA[ 工具. ]]></description>
+    <pubDate>Fri, 30 Jan 2026 08:33:03 GMT</pubDate>
+  </item><item>
+    <title>科学上网</title>
+    <link>https://quartz.jzhao.xyz/tools/network/proxy</link>
+    <guid>https://quartz.jzhao.xyz/tools/network/proxy</guid>
+    <description><![CDATA[ 服务端面板 3x-ui 目前最流行的 Xray 面板（原版 x-ui 的增强分支），支持 VLESS Reality 等新协议。 一键安装脚本: bash &lt;(curl -Ls [raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh](raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)) 订阅转换 sub-web-modify 基于 Vue 开发的 Subconverter 订阅转换前端增强版。通常需要配合后端使用，用于将节点链接转换为 Clash/Sing... ]]></description>
+    <pubDate>Fri, 30 Jan 2026 08:33:03 GMT</pubDate>
+  </item><item>
+    <title>笔记软件</title>
+    <link>https://quartz.jzhao.xyz/tools/note-apps/</link>
+    <guid>https://quartz.jzhao.xyz/tools/note-apps/</guid>
+    <description><![CDATA[ 笔记软件. ]]></description>
+    <pubDate>Fri, 30 Jan 2026 08:33:03 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
