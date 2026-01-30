@@ -1,38 +1,29 @@
 ---
-title: Agent Skills 资源汇总
-date: 2026-01-22
-tags:
-  - AI
-  - skills
-  - Claude
-  - 资源整理
-status: active
+title: Skills
 ---
-
-# Agent Skills 资源汇总
 
 > [!abstract] 什么是 Agent Skills？
 > **Skill = 结构化的长期记忆**，把你不想每次都重复说的话写成文件存起来，AI 自动加载使用。
 
 ---
 
-## 1️⃣ Skill 官网
+## Skill 官网
 
-### 核心规范
+* [官网](https://agentskills.io)
+* [规范文档](https://agentskills.io/specification)
+* [什么是 Skills](https://agentskills.io/what-are-skills)
+* [如何集成](https://agentskills.io/integrate-skills)
+* [anthropics/skills](https://github.com/anthropics/skills)
+* [agentskills/agentskills](https://github.com/agentskills/agentskills)
 
-| 名称 | 链接 | 说明 |
-|------|------|------|
-| **Agent Skills 官网** | https://agentskills.io | ⭐ 入门必看 |
-| **规范文档** | https://agentskills.io/specification | SKILL.md 格式定义 |
-| **什么是 Skills** | https://agentskills.io/what-are-skills | 概念介绍 |
-| **如何集成** | https://agentskills.io/integrate-skills | 工具开发者指南 |
+
 
 ### 官方仓库
 
 | 仓库 | 说明 |
 |------|------|
-| [agentskills/agentskills](https://github.com/agentskills/agentskills) | Agent Skills 标准源码 |
-| [anthropics/skills](https://github.com/anthropics/skills) ⭐48.2k | Anthropic 官方示例 |
+|  | Agent Skills 标准源码 |
+|  ⭐48.2k | Anthropic 官方示例 |
 
 ### 平台文档
 
@@ -128,9 +119,15 @@ license: MIT
 
 ---
 
-## 3️⃣ Skill 推荐
+## Skill 推荐
 
-* [obsidian-skills](https://github.com/kepano/obsidian-skills)
+### [obsidian-skills](https://github.com/kepano/obsidian-skills)
+
+```bash
+npx skills add obsidian@obsidian-skills --agent gemini,opencode
+```
+
+
 * [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
 
 ### 🛒 Skills 市场
@@ -166,13 +163,3 @@ license: MIT
 | **Nymbo/Skills** | [GitHub](https://github.com/Nymbo/Skills) | 精选高质量 skills |
 
 ---
-
-## 🔗 本地相关
-
-- [[Skill Demo/项目笔记示例]] - Obsidian Markdown 示例
-- [[Skill Demo/任务追踪.base]] - Obsidian Bases 示例  
-- [[Skill Demo/项目规划.canvas]] - JSON Canvas 示例
-
----
-
-*最后更新: 2026-01-22*
