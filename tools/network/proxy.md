@@ -29,6 +29,7 @@ bash <(curl -Ls [https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install
 ```bash
 brew install --cask clash-verge-rev
 ```
+* [ClashX.Meta](https://github.com/MetaCubeX/ClashX.Meta)
 ### 安卓端: 
 * [Clash Meta for Android](https://github.com/MetaCubeX/ClashMetaForAndroid)
 * [FlClash](https://github.com/chen08209/FlClash) 
