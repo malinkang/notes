@@ -5,9 +5,19 @@
 ## Apktool
 
 - [GitHub](https://github.com/iBotPeaches/Apktool)
-- Install via Homebrew: `brew install apktool`
+
+Install via Homebrew:
+
+```
+brew install apktool
+```
 
 ## Jadx
 
 - [GitHub](https://github.com/skylot/jadx)
-- Install via Homebrew: `brew install jadx`
+
+Install via Homebrew:
+
+```
+brew install jadx
+```
