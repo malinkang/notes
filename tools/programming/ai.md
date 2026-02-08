@@ -90,3 +90,7 @@ brew install --cask antigravity-tools
 ## happy
 
 * [Github](https://github.com/slopus/happy)
+
+## CodexBar
+
+- [GitHub](https://github.com/steipete/CodexBar)
