@@ -94,3 +94,7 @@ brew install --cask antigravity-tools
 ## CodexBar
 
 - [GitHub](https://github.com/steipete/CodexBar)
+
+## agmente
+
+- [GitHub](https://github.com/rebornix/agmente)
