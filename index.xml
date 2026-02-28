@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Malinkang&#039;s Notes</title>
+      <link>https://quartz.jzhao.xyz</link>
+      <description>Last 10 notes on Malinkang&#039;s Notes</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>index</title>
+    <link>https://quartz.jzhao.xyz/tools/ai/</link>
+    <guid>https://quartz.jzhao.xyz/tools/ai/</guid>
+    <description><![CDATA[ AI clawdbot . ]]></description>
+    <pubDate>Sat, 28 Feb 2026 09:00:48 GMT</pubDate>
+  </item><item>
+    <title>工具</title>
+    <link>https://quartz.jzhao.xyz/tools/</link>
+    <guid>https://quartz.jzhao.xyz/tools/</guid>
+    <description><![CDATA[ 工具. ]]></description>
+    <pubDate>Sat, 28 Feb 2026 09:00:48 GMT</pubDate>
+  </item><item>
+    <title>科学上网</title>
+    <link>https://quartz.jzhao.xyz/tools/network/proxy</link>
+    <guid>https://quartz.jzhao.xyz/tools/network/proxy</guid>
+    <description><![CDATA[ 服务端面板 3x-ui 目前最流行的 Xray 面板（原版 x-ui 的增强分支），支持 VLESS Reality 等新协议。 一键安装脚本: bash &lt;(curl -Ls [raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh](raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)) 订阅转换 sub-web-modify 基于 Vue 开发的 Subconverter 订阅转换前端增强版。通常需要配合后端使用，用于将节点链接转换为 Clash/Sing... ]]></description>
+    <pubDate>Sat, 28 Feb 2026 09:00:48 GMT</pubDate>
+  </item><item>
+    <title>笔记软件</title>
+    <link>https://quartz.jzhao.xyz/tools/note-apps/</link>
+    <guid>https://quartz.jzhao.xyz/tools/note-apps/</guid>
+    <description><![CDATA[ 笔记软件. ]]></description>
+    <pubDate>Sat, 28 Feb 2026 09:00:48 GMT</pubDate>
+  </item><item>
+    <title>Obsidian</title>
+    <link>https://quartz.jzhao.xyz/tools/note-apps/obsidian/</link>
+    <guid>https://quartz.jzhao.xyz/tools/note-apps/obsidian/</guid>
+    <description><![CDATA[ Obsidian. ]]></description>
+    <pubDate>Sat, 28 Feb 2026 09:00:48 GMT</pubDate>
+  </item><item>
+    <title>Obsidian 插件</title>
+    <link>https://quartz.jzhao.xyz/tools/note-apps/obsidian/plugins</link>
+    <guid>https://quartz.jzhao.xyz/tools/note-apps/obsidian/plugins</guid>
+    <description><![CDATA[  obsidian-git . ]]></description>
+    <pubDate>Sat, 28 Feb 2026 09:00:48 GMT</pubDate>
+  </item><item>
+    <title>themes</title>
+    <link>https://quartz.jzhao.xyz/tools/note-apps/obsidian/themes</link>
+    <guid>https://quartz.jzhao.xyz/tools/note-apps/obsidian/themes</guid>
+    <description><![CDATA[ Obsidian 主题整理 记录我在 Obsidian 中使用/关注的主题（Themes）。 当前使用主题 名称： 配色/字体： 个人感受： 曾使用过的主题 主题名： 使用时间： 优点： 缺点： 想试试的主题 自定义样式（CSS Snippets） . ]]></description>
+    <pubDate>Sat, 28 Feb 2026 09:00:48 GMT</pubDate>
+  </item><item>
+    <title>效率工具</title>
+    <link>https://quartz.jzhao.xyz/tools/productivity/</link>
+    <guid>https://quartz.jzhao.xyz/tools/productivity/</guid>
+    <description><![CDATA[ 效率工具. ]]></description>
+    <pubDate>Sat, 28 Feb 2026 09:00:48 GMT</pubDate>
+  </item><item>
+    <title>Raycast</title>
+    <link>https://quartz.jzhao.xyz/tools/productivity/raycast</link>
+    <guid>https://quartz.jzhao.xyz/tools/productivity/raycast</guid>
+    <description><![CDATA[ Raycast macOS 上的效率启动器，替代 Spotlight。 官网 安装方式 brew install --cask raycast. ]]></description>
+    <pubDate>Sat, 28 Feb 2026 09:00:48 GMT</pubDate>
+  </item><item>
+    <title>AI 编程工具整理</title>
+    <link>https://quartz.jzhao.xyz/tools/programming/ai</link>
+    <guid>https://quartz.jzhao.xyz/tools/programming/ai</guid>
+    <description><![CDATA[ Antigravity Google 推出的 AI IDE，基于 Gemini 3。 官网 安装 brew install --cask antigravity Antigravity kit OpenCode 官网 GitHub 安装 curl -fsSL opencode.ai/install | bash Oh My OpenCode 基于 OpenCode 的“编排层”插件：多 Agent 调度、Hooks、MCP、LSP 等。 官网 安装说明 GitHub 安装方式 bunx oh-my-opencode install opencode-antigravity-auth 作用：让 ... ]]></description>
+    <pubDate>Sat, 28 Feb 2026 09:00:48 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
