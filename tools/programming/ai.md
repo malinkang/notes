@@ -98,3 +98,11 @@ brew install --cask antigravity-tools
 ## agmente
 
 - [GitHub](https://github.com/rebornix/agmente)
+
+## Superset
+
+* [Source](https://github.com/superset-sh/superset)
+
+## AntigravityQuotaWatcher
+
+* [Source](https://github.com/wusimpl/AntigravityQuotaWatcher)
