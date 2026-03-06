@@ -33,3 +33,8 @@ brew install --cask clash-verge-rev
 ### 安卓端: 
 * [Clash Meta for Android](https://github.com/MetaCubeX/ClashMetaForAndroid)
 * [FlClash](https://github.com/chen08209/FlClash) 
+  
+  
+https://kiwivm.64clouds.com/1958112/main-exec.php?mode=blacklistcheck
+
+
