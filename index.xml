@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Malinkang&#039;s Notes</title>
+      <link>https://quartz.jzhao.xyz</link>
+      <description>Last 10 notes on Malinkang&#039;s Notes</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>Obsidian</title>
+    <link>https://quartz.jzhao.xyz/tools/note-apps/obsidian/</link>
+    <guid>https://quartz.jzhao.xyz/tools/note-apps/obsidian/</guid>
+    <description><![CDATA[ Obsidian. ]]></description>
+    <pubDate>Sat, 21 Mar 2026 10:28:06 GMT</pubDate>
+  </item><item>
+    <title>Obsidian 插件</title>
+    <link>https://quartz.jzhao.xyz/tools/note-apps/obsidian/plugins</link>
+    <guid>https://quartz.jzhao.xyz/tools/note-apps/obsidian/plugins</guid>
+    <description><![CDATA[  obsidian-git . ]]></description>
+    <pubDate>Sat, 21 Mar 2026 10:28:06 GMT</pubDate>
+  </item><item>
+    <title>themes</title>
+    <link>https://quartz.jzhao.xyz/tools/note-apps/obsidian/themes</link>
+    <guid>https://quartz.jzhao.xyz/tools/note-apps/obsidian/themes</guid>
+    <description><![CDATA[ Obsidian 主题整理 记录我在 Obsidian 中使用/关注的主题（Themes）。 当前使用主题 名称： 配色/字体： 个人感受： 曾使用过的主题 主题名： 使用时间： 优点： 缺点： 想试试的主题 自定义样式（CSS Snippets） . ]]></description>
+    <pubDate>Sat, 21 Mar 2026 10:28:06 GMT</pubDate>
+  </item><item>
+    <title>效率工具</title>
+    <link>https://quartz.jzhao.xyz/tools/productivity/</link>
+    <guid>https://quartz.jzhao.xyz/tools/productivity/</guid>
+    <description><![CDATA[ 效率工具. ]]></description>
+    <pubDate>Sat, 21 Mar 2026 10:28:06 GMT</pubDate>
+  </item><item>
+    <title>Raycast</title>
+    <link>https://quartz.jzhao.xyz/tools/productivity/raycast</link>
+    <guid>https://quartz.jzhao.xyz/tools/productivity/raycast</guid>
+    <description><![CDATA[ Raycast macOS 上的效率启动器，替代 Spotlight。 官网 安装方式 brew install --cask raycast. ]]></description>
+    <pubDate>Sat, 21 Mar 2026 10:28:06 GMT</pubDate>
+  </item><item>
+    <title>AI 编程工具整理</title>
+    <link>https://quartz.jzhao.xyz/tools/programming/ai</link>
+    <guid>https://quartz.jzhao.xyz/tools/programming/ai</guid>
+    <description><![CDATA[ Antigravity Google 推出的 AI IDE，基于 Gemini 3。 官网 安装 brew install --cask antigravity Antigravity kit OpenCode 官网 GitHub 安装 curl -fsSL opencode.ai/install | bash Oh My OpenCode 基于 OpenCode 的“编排层”插件：多 Agent 调度、Hooks、MCP、LSP 等。 官网 安装说明 GitHub 安装方式 bunx oh-my-opencode install opencode-antigravity-auth 作用：让 ... ]]></description>
+    <pubDate>Sat, 21 Mar 2026 10:28:06 GMT</pubDate>
+  </item><item>
+    <title>android</title>
+    <link>https://quartz.jzhao.xyz/tools/programming/android</link>
+    <guid>https://quartz.jzhao.xyz/tools/programming/android</guid>
+    <description><![CDATA[ Android Studio Archive Download older versions of Android Studio Apktool GitHub Install via Homebrew: brew install apktool Jadx GitHub Install via Homebrew: brew install jadx . ]]></description>
+    <pubDate>Sat, 21 Mar 2026 10:28:06 GMT</pubDate>
+  </item><item>
+    <title>flutter</title>
+    <link>https://quartz.jzhao.xyz/tools/programming/flutter</link>
+    <guid>https://quartz.jzhao.xyz/tools/programming/flutter</guid>
+    <description><![CDATA[ Flutter Flutter 是 Google 开发的 UI 工具包，可以帮助开发者使用一套代码库，为移动、Web、桌面和嵌入式设备构建高性能、高保真的应用程序。 环境搭建 下载 Flutter SDK： 访问 Flutter 官网 或 GitHub Releases 下载最新稳定版 SDK。 解压到你喜欢的目录，例如 ~/development/flutter。 配置环境变量： 将 Flutter 的 bin 目录添加到你的系统 PATH 中。 Mac/Linux：编辑 ~/.zshrc 或 ~/.bashrc 文件，添加： export PATH=&quot;$PATH:~/develo... ]]></description>
+    <pubDate>Sat, 21 Mar 2026 10:28:06 GMT</pubDate>
+  </item><item>
+    <title>编程工具</title>
+    <link>https://quartz.jzhao.xyz/tools/programming/</link>
+    <guid>https://quartz.jzhao.xyz/tools/programming/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Sat, 21 Mar 2026 10:28:06 GMT</pubDate>
+  </item><item>
+    <title>Skills</title>
+    <link>https://quartz.jzhao.xyz/tools/programming/skill</link>
+    <guid>https://quartz.jzhao.xyz/tools/programming/skill</guid>
+    <description><![CDATA[  什么是 Agent Skills？ Skill = 结构化的长期记忆，把你不想每次都重复说的话写成文件存起来，AI 自动加载使用。 官网 官网 规范文档 什么是 Skills 如何集成 anthropics/skills agentskills/agentskills 安装 1. ]]></description>
+    <pubDate>Sat, 21 Mar 2026 10:28:06 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
