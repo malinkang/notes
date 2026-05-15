@@ -81,6 +81,4 @@ itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=1434
 
 \- 如遇 None 选项消失：检查余额为 0、无未完成订阅、换浏览器或网络重试
 
-成功了记得留言啊 兄弟们！
-
-![图像](https://pbs.twimg.com/media/HHkdv5WbIAIkJmX?format=jpg&name=large)
+* https://appstoreprice.org/zh/apps/6448311069
